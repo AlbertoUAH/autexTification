@@ -1,6 +1,6 @@
 # AutexTification contest 
 
-![Source](https://sites.google.com/view/autextification/data?authuser=1)
+[Source](https://sites.google.com/view/autextification/data?authuser=1)
 
 ## Organizers
 
