@@ -1,5 +1,7 @@
 # AutexTification contest 
 
+![Source](https://sites.google.com/view/autextification/data?authuser=1)
+
 ## Organizers
 
 <p align="center">
