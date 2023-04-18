@@ -9,6 +9,19 @@
     <img src="/media/upv.jpg"  width="40%" height="20%">
 </p>
 
+
+## Approaches
+
+### 1. Multilingual BERT cased
+
+BEST metrics
+
+|Epoch|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
+|-----|-------------|---------------|--------|---------|------|--|
+|1|0.241600|0.236673|0.906387|0.880825|0.941159|0.909993|
+
+### 2. Multilingual BERT uncased
+
 ## References
 
 [1] Automatic Detection of Machine Generated Text: A Critical Survey, by Ganesh Jawahar, Muhammad Abdul-Mageed, Laks V.S. Lakshmanan. URL: https://aclanthology.org/2020.coling-main.208.pdf
