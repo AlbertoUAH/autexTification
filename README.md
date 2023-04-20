@@ -12,17 +12,21 @@
 
 ## Approaches
 
-### 1. Multilingual BERT cased
+### Transformer only: Multilingual BERT
+
+#### 1. [Multilingual BERT cased](https://huggingface.co/bert-base-multilingual-cased)
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
 |-----|-------------|---------------|--------|---------|------|--|
 |1|0.241600|0.236673|0.906387|0.880825|0.941159|0.909993|
 
-### 2. Multilingual BERT uncased
+#### 2. [Multilingual BERT uncased](https://huggingface.co/bert-base-multilingual-uncased)
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
 |-----|-------------|---------------|--------|---------|------|--|
-|1|0.238100|0.242943|0.902367|0.864474|0.955643|0.907775|
+|1|0.158400|0.248109|0.923380|0.898779|0.955190|0.926126|
+
+### Metadata + Transformer approach
 
 ## References
 
