@@ -28,6 +28,18 @@
 
 ### Metadata + Transformer approach
 
+* Readability and/or Complexity
+* Comprehension
+* Volumetrics (text length, number of characters, number of words)
+* Sentiment
+* Hate comments
+* Subjectivity (TextBlob -> English only: https://github.com/sloria/TextBlob/iss<zues/209)
+* Lemmas
+* Topic Modelling
+* Bag of Words (BoW)
+* Part of Speech (POS)
+* Emotions
+
 ## References
 
 [1] Automatic Detection of Machine Generated Text: A Critical Survey, by Ganesh Jawahar, Muhammad Abdul-Mageed, Laks V.S. Lakshmanan. URL: https://aclanthology.org/2020.coling-main.208.pdf
