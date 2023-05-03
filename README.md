@@ -49,15 +49,23 @@ __Feature importance__
 
 [Image source](https://www.semanticscholar.org/paper/Enriching-BERT-with-Knowledge-Graph-Embeddings-for-Ostendorff-Bourgonje/2cab7f5d64a427cb59fb21112fe8dc28fb753b56)
 
-##### 4.1 
+##### 4.1 Finetuning pretrained BERT uncased + fc (from scratch) - lr: 2e-05
 
-##### 4.2
+|Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
+|-----|-------------|---------------|--------|------|--|
+|2|0.2557|0.4076|0.8036|0.8524|0.8133|
 
-##### 4.3 Using trained BERT uncased from Option 2. + metadata
+##### 4.2 Using trained BERT uncased from Option 2. (layers not frozen) + metadata - lr: 5-e05
 
-|Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
-|-----|-------------|---------------|--------|---------|------|--|
-|3|0.1843|0.4119|0.923380|0.8109|0.8383|0.8165|
+|Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
+|-----|-------------|---------------|--------|------|--|
+|3|0.3853|0.4084|0.8165|0.7478|0.8036|
+
+##### 4.3 Using trained BERT uncased from Option 2. (layers frozen) + metadata - lr: 5-e05
+
+|Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
+|-----|-------------|---------------|--------|------|--|
+|3|0.1843|0.4119|0.8109|0.8383|0.8165|
 
 ### Metadata + Transformer approach
 
