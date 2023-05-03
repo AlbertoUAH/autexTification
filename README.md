@@ -41,7 +41,15 @@ __Feature importance__
 
 ![image](https://user-images.githubusercontent.com/45654081/235979169-fba6ec09-41e3-4793-ba98-a2fec26b6d3c.png)
 
-#### 4. Deep Learning approach with metadata (best uncased BERT trained + sentences metadata)
+#### 4. Deep Learning approach with metadata
+
+![4-Figure2-1](https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png)
+
+##### 4.1 
+
+##### 4.2
+
+##### 4.3 Using trained BERT uncased from Option 2. + metadata
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
 |-----|-------------|---------------|--------|---------|------|--|
