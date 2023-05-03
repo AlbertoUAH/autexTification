@@ -26,6 +26,17 @@
 |-----|-------------|---------------|--------|---------|------|--|
 |1|0.158400|0.248109|0.923380|0.898779|0.955190|0.926126|
 
+#### 3. Extract features + PyCaret
+
+__Top models__
+
+|Model|Accuracy|Precision|Recall|F1|
+|-----|--------|---------|------|--|
+|CatBoost Classifier|0.7851|0.7844|0.7886|0.7864|
+|Random Forest Classifier|0.7750|0.7681|0.7901|0.7789|
+|Extreme Gradient Boosting|0.7725|0.7730|0.7740|0.7734|
+|Light Gradient Boosting Machine|0.7680|0.7770|0.7886|0.7707|
+
 ### Metadata + Transformer approach
 
 * Readability and/or Complexity
