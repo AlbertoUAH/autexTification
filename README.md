@@ -43,7 +43,10 @@ __Feature importance__
 
 #### 4. Deep Learning approach with metadata
 
-![4-Figure2-1](https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
+</p>
+[Image source](https://www.semanticscholar.org/paper/Enriching-BERT-with-Knowledge-Graph-Embeddings-for-Ostendorff-Bourgonje/2cab7f5d64a427cb59fb21112fe8dc28fb753b56)
 
 ##### 4.1 
 
