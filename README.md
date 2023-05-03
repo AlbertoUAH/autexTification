@@ -41,6 +41,11 @@ __Feature importance__
 
 ![image](https://user-images.githubusercontent.com/45654081/235979169-fba6ec09-41e3-4793-ba98-a2fec26b6d3c.png)
 
+### 4. Deep Learning approach with metadata (best uncased BERT trained + sentences metadata)
+
+|Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
+|-----|-------------|---------------|--------|---------|------|--|
+|3|0.1843|0.4119|0.923380|0.8109|0.8383|0.8165|
 
 ### Metadata + Transformer approach
 
