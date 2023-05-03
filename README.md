@@ -14,13 +14,13 @@
 
 ### Transformer only: Multilingual BERT
 
-#### 1. [Multilingual BERT cased](https://huggingface.co/bert-base-multilingual-cased)
+#### 1. [Multilingual BERT uncased](https://huggingface.co/bert-base-multilingual-uncased)
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
 |-----|-------------|---------------|--------|---------|------|--|
-|1|0.241600|0.236673|0.906387|0.880825|0.941159|0.909993|
+|2|0.149700|0.267662|0.922773|0.897985|0.954888|0.925563|
 
-#### 2. [Multilingual BERT uncased](https://huggingface.co/bert-base-multilingual-uncased)
+#### 2. [Multilingual BERT cased](https://huggingface.co/bert-base-multilingual-cased)
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Precision|Recall|F1|
 |-----|-------------|---------------|--------|---------|------|--|
