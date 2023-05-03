@@ -37,6 +37,11 @@ __Top models__
 |Extreme Gradient Boosting|0.7725|0.7730|0.7740|0.7734|
 |Light Gradient Boosting Machine|0.7680|0.7770|0.7886|0.7707|
 
+__Feature importance__ 
+
+![image](https://user-images.githubusercontent.com/45654081/235979169-fba6ec09-41e3-4793-ba98-a2fec26b6d3c.png)
+
+
 ### Metadata + Transformer approach
 
 * Readability and/or Complexity
