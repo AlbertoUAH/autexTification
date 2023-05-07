@@ -28,6 +28,16 @@
 
 #### 3. Extract features + [PyCaret](https://pycaret.org)
 
+* Readability and/or Complexity
+* Comprehension
+* Volumetrics (text length, number of characters, number of words)
+* [Sentiment analysis](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment)
+* Hate comments via [detoxify](https://github.com/unitaryai/detoxify)
+* [Emotion analysis](https://huggingface.co/MilaNLProc/xlm-emo-t)
+* Part of Speech (POS) via [SpaCy](https://spacy.io/)
+* Lemmas
+* Repeated question and exclamation marks
+
 __Results (sorted by best F1 scores)__
 
 <p align="center">
@@ -82,33 +92,7 @@ __Chosen features__:
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
 |-----|-------------|---------------|--------|------|--|
-|2|0.2557|0.4076|0.8036|0.8524|0.8133|
-
-##### 4.2 Using trained BERT uncased from Option 2. (layers not frozen) + metadata - lr: 5-e05
-
-|Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
-|-----|-------------|---------------|--------|------|--|
-|3|0.3853|0.4084|0.8165|0.7478|0.8036|
-
-##### 4.3 Using trained BERT uncased from Option 2. (layers frozen) + metadata - lr: 5-e05
-
-|Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
-|-----|-------------|---------------|--------|------|--|
-|3|0.1843|0.4119|0.8109|0.8383|0.8165|
-
-### Metadata + Transformer approach
-
-* Readability and/or Complexity
-* Comprehension
-* Volumetrics (text length, number of characters, number of words)
-* Sentiment
-* Hate comments
-* Subjectivity (TextBlob -> English only: https://github.com/sloria/TextBlob/iss<zues/209)
-* Lemmas
-* Topic Modelling
-* Bag of Words (BoW)
-* Part of Speech (POS)
-* Emotions
+|4 of 15|0.0100|0.1587|0.9354|0.9926|0.9392|
 
 ## References
 
