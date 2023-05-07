@@ -47,6 +47,10 @@ __Feature importance, top 4 models__
 
 #### 4. Deep Learning approach with metadata
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
+</p>
+
 Q: __Beforehand, Which features should be used as "metadata" parameters?__
 
 A: __Run Multi-Layer Perceptron (MLP) using previous features via PyCaret__
@@ -60,11 +64,7 @@ __Results__
 __Feature Importance__
 
 <p align="center">
-    <img src="/media/feature_importance_mlp.png"  width="80%" height="60%">
-</p>
-
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
+    <img src="/media/feature_importance_mlp.png"  width="60%" height="40%">
 </p>
 
 [Image source](https://www.semanticscholar.org/paper/Enriching-BERT-with-Knowledge-Graph-Embeddings-for-Ostendorff-Bourgonje/2cab7f5d64a427cb59fb21112fe8dc28fb753b56)
