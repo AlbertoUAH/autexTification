@@ -48,6 +48,7 @@ __Feature importance, top 4 models__
 #### 4. Deep Learning approach with metadata
 
 Q: __Beforehand, Which features should be used as "metadata" parameters?__
+
 A: __Run Multi-Layer Perceptron (MLP) using previous features via PyCaret__
 
 __Results__
@@ -56,6 +57,11 @@ __Results__
 |-----|--------|---|------|-----|--|-----|---|
 |MLP Classifier|0.7712|0.8530|0.7787|0.7685|0.7736|0.5424|0.5424|
 
+__Feature Importance__
+
+<p align="center">
+    <img src="/media/feature_importance_mlp.png"  width="80%" height="60%">
+</p>
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
