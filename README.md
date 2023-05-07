@@ -51,6 +51,8 @@ __Feature importance, top 4 models__
     <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
 </p>
 
+[Image source](https://www.semanticscholar.org/paper/Enriching-BERT-with-Knowledge-Graph-Embeddings-for-Ostendorff-Bourgonje/2cab7f5d64a427cb59fb21112fe8dc28fb753b56)
+
 Q: __Beforehand, Which features should be used as "metadata" parameters?__
 
 A: __Run Multi-Layer Perceptron (MLP) using previous features via PyCaret__
@@ -67,7 +69,14 @@ __Feature Importance__
     <img src="/media/feature_importance_mlp.png"  width="60%" height="40%">
 </p>
 
-[Image source](https://www.semanticscholar.org/paper/Enriching-BERT-with-Knowledge-Graph-Embeddings-for-Ostendorff-Bourgonje/2cab7f5d64a427cb59fb21112fe8dc28fb753b56)
+__Chosen features__:
+
+* __nsent__: Number of sentences
+* __LC__: Lexical Complexity Index
+* __avgsentl__: Average sentence length
+* __polini__: Polini's compressibility 
+* __SSR index__
+* __LDI index__
 
 ##### 4.1 Finetuning pretrained BERT uncased + fc (from scratch) - lr: 2e-05
 
