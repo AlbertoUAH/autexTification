@@ -34,13 +34,28 @@ __Results (sorted by best F1 scores)__
     <img src="/media/ml_metrics_table.png"  width="70%" height="50%">
 </p>
 
-__Feature importance__ 
+__Feature importance, top 4 models__
+
+* CatBoost Classifier
+* Random Forest Classifier
+* Extreme Gradient Boosting
+* Light Gradient Boosting Machine
 
 <p align="center">
     <img src="/media/feature_importance.png"  width="80%" height="60%">
 </p>
 
 #### 4. Deep Learning approach with metadata
+
+Q: __Beforehand, Which features should be used as "metadata" parameters?__
+A: __Run Multi-Layer Perceptron (MLP) using previous features via PyCaret__
+
+__Results__
+
+|Model|Accuracy|AUC|Recall|Prec.|F1|Kappa|MCC|
+|-----|--------|---|------|-----|--|-----|---|
+|MLP Classifier|0.7712|0.8530|0.7787|0.7685|0.7736|0.5424|0.5424|
+
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/45654081/235984368-f970703a-fe55-4d90-8c60-768cc8624e30.png"  width="40%" height="20%">
