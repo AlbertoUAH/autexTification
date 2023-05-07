@@ -40,7 +40,7 @@ __Top models__
 __Feature importance__ 
 
 <p align="center">
-    <img src="/media/feature_importance.png"  width="40%" height="20%">
+    <img src="/media/feature_importance.png"  width="70%" height="50%">
 </p>
 
 #### 4. Deep Learning approach with metadata
