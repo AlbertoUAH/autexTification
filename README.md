@@ -28,19 +28,16 @@
 
 #### 3. Extract features + PyCaret
 
-__Top models__
+__Results (sorted by best F1 scores)__
 
-|Model|Accuracy|Precision|Recall|F1|
-|-----|--------|---------|------|--|
-|CatBoost Classifier|0.7851|0.7844|0.7886|0.7864|
-|Random Forest Classifier|0.7750|0.7681|0.7901|0.7789|
-|Extreme Gradient Boosting|0.7725|0.7730|0.7740|0.7734|
-|Light Gradient Boosting Machine|0.7680|0.7770|0.7886|0.7707|
+<p align="center">
+    <img src="/media/ml_metrics_table.png"  width="80%" height="60%">
+</p>
 
 __Feature importance__ 
 
 <p align="center">
-    <img src="/media/feature_importance.png"  width="70%" height="50%">
+    <img src="/media/feature_importance.png"  width="80%" height="60%">
 </p>
 
 #### 4. Deep Learning approach with metadata
