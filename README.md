@@ -39,7 +39,9 @@ __Top models__
 
 __Feature importance__ 
 
-![image](https://user-images.githubusercontent.com/45654081/235979169-fba6ec09-41e3-4793-ba98-a2fec26b6d3c.png)
+<p align="center">
+    <img src="/media/feature_importance.png"  width="40%" height="20%">
+</p>
 
 #### 4. Deep Learning approach with metadata
 
