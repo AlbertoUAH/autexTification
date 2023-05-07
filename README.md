@@ -26,12 +26,12 @@
 |-----|-------------|---------------|--------|---------|------|--|
 |1|0.158400|0.248109|0.923380|0.898779|0.955190|0.926126|
 
-#### 3. Extract features + PyCaret
+#### 3. Extract features + [PyCaret](https://pycaret.org)
 
 __Results (sorted by best F1 scores)__
 
 <p align="center">
-    <img src="/media/ml_metrics_table.png"  width="80%" height="60%">
+    <img src="/media/ml_metrics_table.png"  width="70%" height="50%">
 </p>
 
 __Feature importance__ 
