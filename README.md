@@ -88,11 +88,17 @@ __Chosen features__:
 * __SSR index__
 * __LDI index__
 
-##### 4.1 Finetuning pretrained BERT uncased + fc (from scratch) - lr: 2e-05
+##### 4.1 Finetuning pretrained BERT uncased + fc (using best metadata from MLP) - lr: 5e-05 + wd: 0.01
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
 |-----|-------------|---------------|--------|------|--|
 |4 of 15|0.0100 ⬇|0.1587 ⬇|0.9354 ⬆|0.9926 ⬆|0.9392 ⬆|
+
+## Test submissions
+
+* run1.tsv: Finetuning pretrained BERT uncased (frozen layers) + fc (using best metadata from MLP) - lr: 5e-05 + wd: 0.01
+* run2.tsv: Finetuning pretrained BERT uncased - lr: 2e-05
+* run3.tsv: Random Forest model with metadata
 
 ## References
 
