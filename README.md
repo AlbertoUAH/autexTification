@@ -92,7 +92,7 @@ __Chosen features__:
 
 |Epoch (best)|Training Loss|Validation Loss|Accuracy|Recall|F1|
 |-----|-------------|---------------|--------|------|--|
-|4 of 15|0.0100|0.1587|0.9354|0.9926|0.9392|
+|4 of 15|0.0100 ⬇|0.1587 ⬇|0.9354 ⬆|0.9926 ⬆|0.9392 ⬆|
 
 ## References
 
