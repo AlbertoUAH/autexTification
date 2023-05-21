@@ -103,14 +103,14 @@ __Chosen features__:
 ## Test results (Subtask 1)
 
 * __EN data__:
- * __run 2__:  Place 27th/76
- * __run 3__:  Place 33rd/76
- * __run 1__:  Place 35th/76
+    * __run 2__:  Place 27th/76
+    * __run 3__:  Place 33rd/76
+    * __run 1__:  Place 35th/76
 
 * __ES data__:
- * __run 2__: Place 9th/52
- * __run 1__: Place 24th/52
- * __run 3__: Place 32nd/52
+    * __run 2__: Place 9th/52
+    * __run 1__: Place 24th/52
+    * __run 3__: Place 32nd/52
 
 ## References
 
