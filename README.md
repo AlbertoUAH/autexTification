@@ -100,6 +100,18 @@ __Chosen features__:
 * run2.tsv: Finetuning pretrained BERT uncased - lr: 2e-05
 * run3.tsv: Random Forest model with metadata
 
+## Test results (Subtask 1)
+
+* __EN data__:
+ * __run 2__:  Place 27th/76
+ * __run 3__:  Place 33rd/76
+ * __run 1__:  Place 35th/76
+
+* __ES data__:
+ * __run 2__: Place 9th/52
+ * __run 1__: Place 24th/52
+ * __run 3__: Place 32nd/52
+
 ## References
 
 [1] Automatic Detection of Machine Generated Text: A Critical Survey, by Ganesh Jawahar, Muhammad Abdul-Mageed, Laks V.S. Lakshmanan. URL: https://aclanthology.org/2020.coling-main.208.pdf
