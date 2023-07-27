@@ -15,7 +15,8 @@ def test_check_model_existence():
 		tokenizer = AutoTokenizer.from_pretrained(model_name)
 		model     = AutoModel.from_pretrained(model_name)
 		exist     = True
-	except OSError:
+	except Exception as e:
+		print(e)
 		exist = False
 	finally:
 		assert exist, "Model and/or tokenizer does not exist"
