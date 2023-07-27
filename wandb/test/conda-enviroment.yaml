@@ -5,4 +5,4 @@ channels:
   - conda-forge
 dependencies:
   - transformers=4.31.0=pyhd8ed1ab_0
-  - pytorch=2.0.0=py3.8_0
+  - pytorch=2.0.0=py3.8_cuda11.7_cudnn8.5.0_0
