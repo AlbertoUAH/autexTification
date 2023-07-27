@@ -16,8 +16,8 @@ def test_check_model_existence():
 		tokenizer = AutoTokenizer.from_pretrained(model_name)
 		model     = AutoModel.from_pretrained(model_name)
 		exist     = True
-		print("Exist: ", exist)
 	except Exception as e:
+		print("EXCEPTION!!")
 		print(e)
 		exist = False
 	finally:
