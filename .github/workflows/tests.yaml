@@ -29,5 +29,5 @@ jobs:
       - run: |
           micromamba activate conda-env-autextification
           pip install -U pytest
-          pip install -U yaml
+          pip install -U pyyaml
           pytest wandb/test/
