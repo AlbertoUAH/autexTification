@@ -10,6 +10,7 @@ print(config_file)
 # -- Check if model & tokenizer exist
 def test_check_model_existence():
 	model_name = config_file['parameters']['model']['value']
+	exist = False
 	try:
 		tokenizer = AutoTokenizer.from_pretrained(model_name)
 		model     = AutoModel.from_pretrained(model_name)
