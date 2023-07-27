@@ -2,6 +2,10 @@
 # -- Import libraries
 from transformers import AutoTokenizer, AutoModel
 import yaml
+import os
+
+print("PRINT")
+print(os.listdir())
 
 with open('sweep.yaml', 'r') as yaml_file:
 	config_file = yaml.safe_load(yaml_file)
