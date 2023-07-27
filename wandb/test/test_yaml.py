@@ -16,7 +16,8 @@ def check_model_existence():
 	except OSError:
 		exist = False
 		continue
-	assert exist
+	finally:
+		assert exist
 
 # -- Check if number of epochs is greater than zero
 def check_num_epochs():
