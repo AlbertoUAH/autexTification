@@ -5,7 +5,7 @@ import yaml
 import os
 
 print("PRINT")
-print(os.listdir())
+print(os.listdir('./wandb/test'))
 
 with open('sweep.yaml', 'r') as yaml_file:
 	config_file = yaml.safe_load(yaml_file)
