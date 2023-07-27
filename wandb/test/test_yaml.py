@@ -3,7 +3,7 @@
 from transformers import AutoTokenizer, AutoModel
 import yaml
 
-with open('sweep.yaml', 'r') as yaml_file:
+with open('wandb/test/sweep.yaml', 'r') as yaml_file:
 	config_file = yaml.safe_load(yaml_file)
 
 # -- Check if model & tokenizer exist
