@@ -1,0 +1,7 @@
+name: conda-env-autextification
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - transformers==4.32.0.dev0
