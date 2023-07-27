@@ -4,4 +4,4 @@ channels:
   - nvidia
   - defaults
 dependencies:
-  - transformers==4.32.0.dev0
+  - transformers=4.31.0=pyhd8ed1ab_0
