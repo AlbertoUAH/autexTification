@@ -12,9 +12,11 @@ def test_check_model_existence():
 	model_name = config_file['parameters']['model']['value']
 	exist = False
 	try:
+		print("Exist: ", exist)
 		tokenizer = AutoTokenizer.from_pretrained(model_name)
 		model     = AutoModel.from_pretrained(model_name)
 		exist     = True
+		print("Exist: ", exist)
 	except Exception as e:
 		print(e)
 		exist = False
