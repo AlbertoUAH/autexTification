@@ -15,7 +15,6 @@ def check_model_existence():
 		exist     = True
 	except OSError:
 		exist = False
-		continue
 	finally:
 		assert exist
 
