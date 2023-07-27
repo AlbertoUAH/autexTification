@@ -2,25 +2,21 @@
 # -- Import libraries
 from transformers import AutoTokenizer, AutoModel
 import yaml
-import os
-
-print("PRINT")
-print(os.listdir('./wandb/test'))
 
 with open('./wandb/test/sweep.yaml', 'r') as yaml_file:
 	config_file = yaml.safe_load(yaml_file)
 
 # -- Check if model & tokenizer exist
-def check_model_existence():
-	model_name = config_file['parameters']['model']['value']
-	try:
-		tokenizer = AutoTokenizer.from_pretrained(model_name)
-		model     = AutoModel.from_pretrained(model_name)
-		exist     = True
-	except OSError:
-		exist = False
-	finally:
-		assert exist
+#def check_model_existence():
+#	model_name = config_file['parameters']['model']['value']
+#	try:
+#		tokenizer = AutoTokenizer.from_pretrained(model_name)
+#		model     = AutoModel.from_pretrained(model_name)
+#		exist     = True
+#	except OSError:
+#		exist = False
+#	finally:
+#		assert exist
 
 # -- Check if number of epochs is greater than zero
 def check_num_epochs():
