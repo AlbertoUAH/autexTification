@@ -27,6 +27,6 @@ jobs:
           cache-downloads: true
           
       - run: |
-          micromamba activate course
+          micromamba activate conda-env-autextification
           pip install -U pytest
           pytest wandb/test/
