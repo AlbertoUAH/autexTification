@@ -21,7 +21,7 @@ jobs:
       - name: Install Conda environment with Micromamba
         uses: mamba-org/provision-with-micromamba@main
         with:
-          environment-file: wandb/test/conda-environment.yaml
+          environment-file: wandb/test/conda-enviroment.yaml
           environment-name: conda-env-autextification
           cache-env: true
           cache-downloads: true
