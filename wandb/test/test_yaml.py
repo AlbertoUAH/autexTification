@@ -4,8 +4,9 @@ from transformers import AutoTokenizer, AutoModel
 import yaml
 
 with open('./wandb/test/sweep.yaml', 'r') as yaml_file:
-	config_file = yaml.load(yaml_file)
+	config_file = dict(yaml.safe_load(yaml_file))
 
+print(config_file)
 # -- Check if model & tokenizer exist
 def test_check_model_existence():
 	model_name = config_file['parameters']['model']['value']
