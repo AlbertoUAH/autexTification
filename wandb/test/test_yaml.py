@@ -6,7 +6,9 @@ import yaml
 with open('./wandb/test/sweep.yaml', 'r') as yaml_file:
 	config_file = dict(yaml.safe_load(yaml_file))
 
-print(config_file)
+def test_check_if_train_file_exists():
+	train_file = config_file['train']
+
 # -- Check if model & tokenizer exist
 def test_check_model_existence():
 	model_name = config_file['parameters']['model']['value']
