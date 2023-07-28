@@ -10,7 +10,7 @@ with open('./wandb/test/sweep.yaml', 'r') as yaml_file:
 # -- Check if code file for training is in config_file
 def test_check_if_train_file_exists():
 	train_file = config_file['program']
-	assert train_file in os.listdir('./wandb/train/'), "code file for training not found in ./wandb/train/ folder"
+	assert train_file in os.listdir('./wandb/train/'), "Code file for training not found in ./wandb/train/ folder"
 
 # -- Check if model & tokenizer exist
 def test_check_model_existence():
