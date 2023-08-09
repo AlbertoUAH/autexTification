@@ -18,12 +18,25 @@ jobs:
       env:
         PAYLOAD: ${{ toJSON(github.event) }}
       
-    - name: Label PR
+    - name: Check for '/bug' in PR title
+      run: |
+        if [[ $(echo "${{ github.event.pull_request.title }}" | grep -i "/bug") ]]; then
+          echo "PR title contains '/bug'"
+          export ADD_BUG_LABEL=true
+        else
+          echo "PR title does not contain '/bug'"
+          export ADD_BUG_LABEL=false
+        fi
+      env:
+        PR_TITLE: ${{ github.event.pull_request.title }}
+      
+    - name: Label PR with 'bug' label
+      if: env.ADD_BUG_LABEL == 'true'
       shell: python
       run: |
         import os
         from ghapi.core import GhApi
-        owner,repo = os.environ['REPO'].split('/')
+        owner, repo = os.environ['REPO'].split('/')
         api = GhApi(owner=owner, repo=repo)
         api.issues.add_labels(os.environ['NUMBER'], ['bug'])
       env:
